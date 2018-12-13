@@ -1,7 +1,10 @@
-//java program to print welcome
+import javva.util.Scanner;
 class program{
 	public static void main(String[] args){
+		Scanner s=new Scanner(System.in);
 		System.out.println("Welcome");
-		System.out.println("java program");
+		int a=s.nextInt();
+		int b=s.nextInt();
+		System.out.println("multiplication"+(a*b));
 	}
  }
