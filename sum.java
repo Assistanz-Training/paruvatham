@@ -5,6 +5,7 @@ class sum{
 		int y=20;
 		int z=x+y;
 		System.out.println("sum:"+z);
+		System.out.println("subtraction"+(x-y));
 		
 	}
   }
